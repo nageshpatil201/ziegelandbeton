@@ -27,7 +27,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="https://wa.me/916366325879"
+              href="https://wa.me/917026742400"
               className="border border-foreground px-6 py-3 uppercase text-sm text-center"
             >
               WhatsApp
