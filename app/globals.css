@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #4e4744;
   --foreground: #d7b984;
 }
 
@@ -11,13 +11,13 @@
   --color-foreground: var(--foreground);
 }
 
-/* DARK MODE ONLY */
+/* DARK MODE ONLY
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #4e4744;
     --foreground: #d7b984;
   }
-}
+} */
 
 body {
   background: var(--background);

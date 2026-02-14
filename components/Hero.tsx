@@ -1,13 +1,15 @@
 import Image from "next/image";
+import { FaPhone, FaWhatsapp } from "react-icons/fa";
+
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden">
-      
+
       {/* HERO CONTENT */}
       <div className="max-w-7xl mx-auto px-6 pt-24 md:pt-36 z-50">
         <div className="flex flex-col items-start text-left">
-          
+
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold uppercase leading-tight">
             Transforming Spaces <br className="hidden sm:block" /> Into Beautiful Art
           </h1>
@@ -19,20 +21,40 @@ export default function Hero() {
 
           {/* BUTTONS */}
           <div className="mt-6 flex flex-col sm:flex-row gap-4">
+
+            {/* Call Now */}
             <a
               href="tel:6366325879"
-              className="bg-foreground text-background px-6 py-3 uppercase text-sm text-center"
+              className="
+                flex items-center justify-center gap-2
+                bg-foreground text-background
+                px-6 py-3 uppercase text-sm font-medium
+                transition-all duration-300
+                hover:opacity-90 hover:scale-[1.02]
+              "
             >
-              Call Now
+              <FaPhone className="text-base" />
+              <span>Call Now</span>
             </a>
 
+            {/* WhatsApp */}
             <a
               href="https://wa.me/917026742400"
-              className="border border-foreground px-6 py-3 uppercase text-sm text-center"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+              flex items-center justify-center gap-2
+              border border-foreground text-foreground
+              px-6 py-3 uppercase text-sm font-medium
+              transition-all duration-300
+              hover:bg-foreground hover:text-background hover:scale-[1.02]"
             >
-              WhatsApp
+              <FaWhatsapp className="text-base" />
+              <span>WhatsApp</span>
             </a>
+
           </div>
+
         </div>
       </div>
 

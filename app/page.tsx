@@ -3,6 +3,8 @@ import AboutUs from "./about/page";
 import Services from "./services/page";
 import WhyUs from "./whyus/page";
 import OurProcess from "./process/page";
+import ContactUs from "./contact/page";
+import Company from "./company/page";
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <Services />
       <WhyUs />
       <OurProcess/>
+      <ContactUs/>
+      <Company/>
     </main>
   );
 }
