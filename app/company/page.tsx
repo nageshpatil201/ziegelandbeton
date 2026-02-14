@@ -69,7 +69,7 @@ export default function CompanyPage() {
 
 
                     {/* Social Media */}
-                    <div className="pt-8 border-t border-[#e5c88b]/30 text-center md:text-left">
+                    <div className="py-8 border-t border-[#e5c88b]/30 text-center md:text-left">
                         <p className="uppercase tracking-widest text-sm mb-4">
                             Follow Us
                         </p>
